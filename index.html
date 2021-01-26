@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1 id="welcome">Welcome To Tamim's Bank</h1>
+        <div class="login-area">
+            <h1>Login</h1><br>
+            <input class="input-field" type="email" placeholder="Enter your email here:" size="90%"><br><br>
+            <input class="input-field" type="password" placeholder="Type your Password:" size="90%"><br><br>
+            <button class="btn">Enter</button>
+        </div>
+    </main>
+    <section class="container transaction-area">
+        <div class="display-part">
+            <div id="card1">
+                <h3>Deposit</h3>
+                <h1>$<span id="deposit-amount">0</span></h1>
+            </div>
+            <div id="card2">
+                <h3>Withdraw</h3>
+                <h1>$<span id="withdraw-amount">0</span></h1>
+            </div>
+            <div id="card3">
+                <h3>Balance</h3>
+                <h1>$<span id="total-balance">1240</span></h1>
+            </div>
+        </div>
+        <div class="working-part">
+            <div class="box">
+                <h2>Deposit</h2><br>
+                <input class="input-field" type="text" size="40%" placeholder="$ amount you want to deposit :"><br><br>
+                <button class="btn">Deposit</button>
+            </div>
+            <div class="box">
+                <h2>Withdraw</h2><br>
+                <input class="input-field" type="text" size="40%" placeholder="$ amount you want to withdraw :"><br><br>
+                <button class="btn">Withdraw</button>
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

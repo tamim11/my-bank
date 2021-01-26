@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Poppins', sans-serif;
+}
+
+#welcome {
+    text-align: center;
+}
+
+.container {
+    width: 80vw;
+    height: 90vh;
+    margin: 5rem auto;
+    padding: 5rem;
+}
+
+.login-area {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.transaction-area {
+    display: none;
+}
+
+.input-field {
+    height: 50px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    font-size: 25px;
+    padding: 15px 30px;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.display-part {
+    display: flex;
+    justify-content: space-around;
+}
+
+.working-part {
+    display: flex;
+    justify-content: space-around;
+}
+
+#card1 {
+    background-color: slateblue;
+    color: white;
+    padding: 20px 40px;
+    width: 300px;
+    height: 150px;
+    border-radius: .5rem;
+    font-size: 20px;
+}
+
+#card2 {
+    background-color: tomato;
+    color: white;
+    padding: 20px 40px;
+    width: 300px;
+    height: 150px;
+    border-radius: .5rem;
+    font-size: 20px;
+}
+
+#card3 {
+    background-color: orange;
+    color: white;
+    padding: 20px 40px;
+    width: 300px;
+    height: 150px;
+    border-radius: .5rem;
+    font-size: 20px;
+}
+
+.box {
+    margin: 50px;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: .5rem;
+}
